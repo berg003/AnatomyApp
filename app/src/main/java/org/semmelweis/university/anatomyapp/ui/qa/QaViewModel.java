@@ -1,19 +1,19 @@
-package org.semmelweis.university.anatomyapp.ui.beananatomist;
+package org.semmelweis.university.anatomyapp.ui.qa;
 
 import androidx.lifecycle.LiveData;
 import androidx.lifecycle.MutableLiveData;
 import androidx.lifecycle.ViewModel;
 
-public class BeananatomistViewModel extends ViewModel {
+public class QaViewModel extends ViewModel {
 
     private MutableLiveData<String> mText;
 
-    public BeananatomistViewModel() {
+    public QaViewModel() {
         mText = new MutableLiveData<>();
         mText.setValue("This is Be an Anatomist fragment");
     }
 
-    public LiveData<String> getText() {
+    LiveData<String> getText() {
         return mText;
     }
 }

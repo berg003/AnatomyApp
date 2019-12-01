@@ -8,30 +8,25 @@
     <fragment
         android:id="@+id/navigation_learn"
         android:name="org.semmelweis.university.anatomyapp.ui.learn.LearnFragment"
-        android:label="@string/title_learn"
         tools:layout="@layout/fragment_learn" />
 
     <fragment
         android:id="@+id/navigation_search"
         android:name="org.semmelweis.university.anatomyapp.ui.search.SearchFragment"
-        android:label="@string/title_search"
         tools:layout="@layout/fragment_search" />
 
     <fragment
         android:id="@+id/navigation_puzzle"
         android:name="org.semmelweis.university.anatomyapp.ui.puzzle.PuzzleFragment"
-        android:label="@string/title_puzzle"
         tools:layout="@layout/fragment_puzzle" />
 
     <fragment
         android:id="@+id/navigation_findparts"
         android:name="org.semmelweis.university.anatomyapp.ui.findparts.FindpartsFragment"
-        android:label="@string/title_findparts"
         tools:layout="@layout/fragment_findparts" />
 
     <fragment
-        android:id="@+id/navigation_beananatomist"
-        android:name="org.semmelweis.university.anatomyapp.ui.beananatomist.BeananatomistFragment"
-        android:label="@string/title_beananatomist"
-        tools:layout="@layout/fragment_beananatomist" />
+        android:id="@+id/navigation_qa"
+        android:name="org.semmelweis.university.anatomyapp.ui.qa.QaFragment"
+        tools:layout="@layout/fragment_qa" />
 </navigation>

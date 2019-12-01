@@ -1,4 +1,4 @@
-package org.semmelweis.university.anatomyapp.ui.beananatomist;
+package org.semmelweis.university.anatomyapp.ui.qa;
 
 import android.os.Bundle;
 import android.view.LayoutInflater;
@@ -14,17 +14,17 @@ import androidx.lifecycle.ViewModelProviders;
 
 import org.semmelweis.university.anatomyapp.R;
 
-public class BeananatomistFragment extends Fragment {
+public class QaFragment extends Fragment {
 
-    private BeananatomistViewModel beananatomistViewModel;
+    private QaViewModel qaViewModel;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        beananatomistViewModel =
-                ViewModelProviders.of(this).get(BeananatomistViewModel.class);
-        View root = inflater.inflate(R.layout.fragment_beananatomist, container, false);
-        final TextView textView = root.findViewById(R.id.text_beananatomist);
-        beananatomistViewModel.getText().observe(this, new Observer<String>() {
+        qaViewModel =
+                ViewModelProviders.of(this).get(QaViewModel.class);
+        View root = inflater.inflate(R.layout.fragment_qa, container, false);
+        final TextView textView = root.findViewById(R.id.text_qa);
+        qaViewModel.getText().observe(this, new Observer<String>() {
             @Override
             public void onChanged(@Nullable String s) {
                 textView.setText(s);

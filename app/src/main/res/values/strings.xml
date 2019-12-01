@@ -1,8 +1,9 @@
 <resources>
-    <string name="app_name">AnatomyApp</string>
-    <string name="title_learn">Learn</string>
-    <string name="title_search">Search</string>
-    <string name="title_puzzle">Puzzle</string>
-    <string name="title_findparts">Find Parts</string>
-    <string name="title_beananatomist">Be an anatomist</string>
+    <string name="app_name">Anatómia</string>
+    <string name="title_learn">Tanulás</string>
+    <string name="title_search">Keresés</string>
+    <string name="title_puzzle">Összerakás</string>
+    <string name="title_findparts">Részek</string>
+    <string name="title_qa">K/V</string>
+    <string name="thesis">Tétel…</string>
 </resources>
