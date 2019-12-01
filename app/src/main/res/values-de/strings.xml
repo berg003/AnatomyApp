@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Anatomie</string>
+    <string name="title_learn">Lernen</string>
+    <string name="title_search">Suchen</string>
+    <string name="title_puzzle">Puzzle</string>
+    <string name="title_findparts">Teile finden</string>
+    <string name="title_qa">F/A</string>
+    <string name="thesis">Artikel…</string>
+    <string name="microphone">Mikrofon</string>
+
+    <string-array name="thesis">
+        <item>1. Epithelial </item>
+        <item>2. Bindegewebe </item>
+        <item>3. Fett; Knorpelgewebe </item>
+        <item>4. Knochengewebe </item>
+        <item>5. Muskelgewebe </item>
+        <item>6. Keimzellbildung, Keimzellen; Düngung </item>
+        <item>7. Fetale Entwicklung, Fetale Entwicklung</item>
+        <item>8. Extrauterine Entwicklung </item>
+        <item>9. Knochen im Allgemeinen; Knochenstruktur, Entwicklung, Wachstum </item>
+        <item>10. Knochenbestandteile; Knochenverbindungen </item>
+        <item>11. Der Schädel </item>
+        <item>12. Der Hirnschädel </item>
+        <item>13. Schädeldach und Schädelbasis </item>
+        <item>14. Schädelhöhlen </item>
+        <item>15. Der Unterkiefer und die Gelenke</item>
+        <item>16. Das Brustbein, die Rippen und ihre Verbindungen; Die Truhe </item>
+        <item>17. Wirbel und Wirbelsäule </item>
+        <item>18. Schulterknochen und Gelenke </item>
+        <item>19. Humerus; Schultergelenk </item>
+        <item>20. Knochen des Unterarms; Der Ellbogen </item>
+        <item>21. Knochen und Gelenke der Hand </item>
+        <item>22. Der Beckenknochen und seine Verbindungen</item>
+        <item>23. Der Pool als Ganzes</item>
+        <item>24. Der Oberschenkelknochen und die Hüfte</item>
+        <item>25. Beinknochen und Kniegelenk</item>
+        <item>26. Fußknochen und Gelenke; Das ganze Bein </item>
+        <item>27. Die Skelettmuskulatur im Allgemeinen; Struktur, Zusammensetzung, Zusammensetzung des Muskels </item>
+        <item>28. Die Kopfmuskeln </item>
+        <item>29. Brustveränderungen </item>
+        <item>30. Die Rückenmuskulatur </item>
+        <item>31. Nackenmuskulatur </item>
+        <item>32. Die Bauchmuskeln </item>
+        <item>33. Hernienkanäle </item>
+        <item>34. Muskeln der oberen Extremitäten </item>
+        <item>35. Muskeln der unteren Extremitäten </item>
+        <item>36. Äußere Beschreibung des Herzens; Position, Projektion </item>
+        <item>37. Herzhöhlen, Münder, Klappen</item>
+        <item>38. Die Struktur der Herzwand und des Perikards</item>
+        <item>39. Herzinnervation </item>
+        <item>40. Die eigenen Kräfte des Herzens </item>
+        <item>41. Über Blutgefäße im Allgemeinen die Struktur von Blutgefäßen; Kommunikation; Blut Kreise </item>
+        <item>42. Der Ascendent der Aorta, der Arcus aortae und ihre Äste </item>
+        <item>43. Aorta descendens und ihre Äste</item>
+        <item>44. Adern des Großen Kreises </item>
+        <item>45. Fetaler Kreislauf </item>
+        <item>46. Das Lymphsystem, lymphatische Organe, Lymphkreislauf</item>
+        <item>47. Der Lymphknoten und die Milz</item>
+        <item>48. Mandeln und Thymus </item>
+        <item>49. Blut und seine Elemente, Plasma</item>
+        <item>50. Knochenmark und Hämatopoese; Entwicklung von roten und weißen Blutkörperchen</item>
+    </string-array>
+</resources>

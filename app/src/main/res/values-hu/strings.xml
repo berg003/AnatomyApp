@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Anatómia</string>
+    <string name="title_learn">Tanulás</string>
+    <string name="title_search">Keresés</string>
+    <string name="title_puzzle">Összerakás</string>
+    <string name="title_findparts">Részek</string>
+    <string name="title_qa">K/V</string>
+    <string name="thesis">Tétel…</string>
+    <string name="microphone">mikrofon</string>
+
+    <string-array name="thesis">
+        <item>1. Hámszövet</item>
+        <item>2. Kötőszövet</item>
+        <item>3. Zsírszövet; Porcszövet</item>
+        <item>4. Csontszövet</item>
+        <item>5. Izomszövet</item>
+        <item>6. Az ivarsejtek kialakulása,  Ivarsejtek; Megtermékenyítés;</item>
+        <item>7. A magzat kialakulása, A magzat fejlődése</item>
+        <item>8. Extrauterin fejlődés</item>
+        <item>9. Csontokról általában; A csontok szerkezete, fejlődése, növekedése</item>
+        <item>10. A csontok járulékos alkotórészei;   A csontok összeköttetései</item>
+        <item>11. Az arckoponya</item>
+        <item>12. Az agykoponya</item>
+        <item>13. A koponyatető és a koponyaalap</item>
+        <item>14. A koponya üregei</item>
+        <item>15. A mandibula és ízülete</item>
+        <item>16. A sternum, a bordák, ezek összeköttetései; A mellkas</item>
+        <item>17. A csigolyák és a gerinc</item>
+        <item>18. A vállöv csontjai és ízületei</item>
+        <item>19. Humerus; Vállízület</item>
+        <item>20. Az alkar csontjai;   A könyökízület</item>
+        <item>21. A kéz csontjai és ízületei</item>
+        <item>22. A medencecsont és összeköttetései</item>
+        <item>23. A medence egészben</item>
+        <item>24. A combcsont és a csípőízület</item>
+        <item>25. A lábszár csontjai és a térdízület</item>
+        <item>26. A láb csontjai és ízületei; A láb egészben</item>
+        <item>27. A vázizmokról általában; Az izom szerkezete, felépítése, összetétele</item>
+        <item>28. A fejizmok</item>
+        <item>29. A mellkas izmai</item>
+        <item>30. A hátizmok</item>
+        <item>31. A nyakizmok</item>
+        <item>32. A hasizmok</item>
+        <item>33. A sérvcsatornák</item>
+        <item>34. A felsővégtag izmai</item>
+        <item>35. Az alsó végtag izmai</item>
+        <item>36. A szív külső leírása; helyzete, vetülete</item>
+        <item>37. A szív üregei, szájadékai, billentyűi</item>
+        <item>38. A szívfal szerkezete és a szívburok</item>
+        <item>39. A szív beidegzése</item>
+        <item>40. A szív saját erei</item>
+        <item>41. Az erekről általában, az erek szerkezete; összeköttetései; Vérkörök</item>
+        <item>42. Az aorta ascendens, az arcus aortae és ágaik</item>
+        <item>43. Az aorta descendens és ágai</item>
+        <item>44. A nagyvérkör vénái</item>
+        <item>45. A magzati vérkeringés</item>
+        <item>46. A nyirokrendszer, nyirokszervek, nyirokkeringés</item>
+        <item>47. A nyirokcsomó és a lép</item>
+        <item>48. A mandulák és a csecsemőmirigy</item>
+        <item>49. A vér és alakos elemei, vérplazma</item>
+        <item>50. A csontvelő és a vérképzés; A vörösvértestek és a fehérvérsejtek fejlődése</item>
+    </string-array>
+</resources>

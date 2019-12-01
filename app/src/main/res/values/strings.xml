@@ -1,10 +1,63 @@
 <resources>
-    <string name="app_name">Anatómia</string>
-    <string name="title_learn">Tanulás</string>
-    <string name="title_search">Keresés</string>
-    <string name="title_puzzle">Összerakás</string>
-    <string name="title_findparts">Részek</string>
-    <string name="title_qa">K/V</string>
-    <string name="thesis">Tétel…</string>
-    <string name="microphone">mikrofon</string>
+    <string name="app_name">Anatomy</string>
+    <string name="title_learn">Learn</string>
+    <string name="title_search">Search</string>
+    <string name="title_puzzle">Puzzle</string>
+    <string name="title_findparts">Find Parts</string>
+    <string name="title_qa">Q/A</string>
+    <string name="thesis">thesis…</string>
+    <string name="microphone">microphone</string>
+
+    <string-array name="thesis">
+        <item>1. Epithelial </item>
+        <item>2. Connective tissue </item>
+        <item>3. Fat; Cartilage Tissue </item>
+        <item>4. Bone tissue </item>
+        <item>5. Muscle tissue </item>
+        <item>6. Germ cell formation, Germ cells; Fertilization </item>
+        <item>7. Fetal development, Fetal development </item>
+        <item>8. Extrauterine Development </item>
+        <item>9. Bones in general; Bone Structure, Development, Grow. </item>
+        <item>10. Bone constituents; Bone connections </item>
+        <item>11. the Skull </item>
+        <item>12. the brain skull </item>
+        <item>13. Skull roof and skull base </item>
+        <item>14. Skull cavities </item>
+        <item>15. the mandible and the joints </item>
+        <item>16. the sternum, the ribs and their connections; the chest </item>
+        <item>17. the vertebrae and the spine </item>
+        <item>18. Shoulder Bones and Joints </item>
+        <item>19. humerus; Shoulder Joint </item>
+        <item>20. Bones of the forearm; the elbow </item>
+        <item>21. Bones and Joints of the Hand </item>
+        <item>22. the pelvic bone and its connections </item>
+        <item>23. the pool as a whole </item>
+        <item>24. the femur and hip </item>
+        <item>25. Leg bones and knee joint </item>
+        <item>26. Foot bones and joints; the whole leg </item>
+        <item>27. the skeletal muscles in general; Structure, Composition, Composition of Muscle </item>
+        <item>28. the head muscles </item>
+        <item>29. Chest changes </item>
+        <item>30. the back muscles </item>
+        <item>31. Neck muscles </item>
+        <item>32. the abdominal muscles </item>
+        <item>33. Hernia channels </item>
+        <item>34. Upper limb muscles </item>
+        <item>35. Lower limb muscles </item>
+        <item>36. External description of the heart; position, projection </item>
+        <item>37. Heart cavities, mouths, valves </item>
+        <item>38. the structure of the heart wall and the pericardium </item>
+        <item>39. Heart innervation </item>
+        <item>40. the heart\'s own powers </item>
+        <item>41. About blood vessels in general, the structure of blood vessels; communications; Blood Circles </item>
+        <item>42. the aortic ascendent, the arcus aortae and their branches </item>
+        <item>43. Descendent aorta and its branches </item>
+        <item>44. Veins of the Great Circle </item>
+        <item>45. Fetal circulation </item>
+        <item>46. the lymphatic system, lymphoid organs, lymphatic circulation </item>
+        <item>47. the lymph node and spleen </item>
+        <item>48. Almonds and Thymus </item>
+        <item>49. Blood and its Elements, Plasma </item>
+        <item>50. Bone marrow and hematopoiesis; Development of red blood cells and white blood cells </item>
+    </string-array>
 </resources>
