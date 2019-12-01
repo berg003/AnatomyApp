@@ -12,16 +12,15 @@
         <AutoCompleteTextView
             android:hint="@string/thesis"
             android:layout_weight="1"
-            android:layout_marginTop="10dp"
             android:id="@+id/autoCompleteTextView"
             android:layout_height="wrap_content"
-            android:layout_width="0dp">
+            android:layout_width="0dp"
+            android:completionThreshold="0">
         </AutoCompleteTextView>
         <ImageView
             android:id = "@+id/speakHu"
             android:layout_width = "wrap_content"
             android:layout_height = "wrap_content"
-            android:layout_marginTop="10dp"
             android:background = "?selectableItemBackground"
             android:src = "@android:drawable/ic_btn_speak_now"
             android:contentDescription="@string/microphone" />
