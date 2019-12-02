@@ -9,6 +9,9 @@
     <string name="microphone">microphone</string>
     <string name="keyword">Keyword…</string>
     <string name="cancel">X</string>
+    <string name="find_parts_under_construction" translatable="false">Find Parts Under Construction</string>
+    <string name="puzzle_under_construction" translatable="false">Puzzle Under Construction</string>
+    <string name="question_answer_under_construction" translatable="false">Question Answer under Construction</string>
 
     <string-array name="thesis">
         <item>1. Epithelial </item>
