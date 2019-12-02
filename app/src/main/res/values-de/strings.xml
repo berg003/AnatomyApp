@@ -7,6 +7,8 @@
     <string name="title_qa">F/A</string>
     <string name="thesis">Artikel…</string>
     <string name="microphone">Mikrofon</string>
+    <string name="keyword">Stichwort…</string>
+    <string name="cancel">X</string>
 
     <string-array name="thesis">
         <item>1. Epithelial </item>

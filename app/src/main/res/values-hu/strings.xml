@@ -7,6 +7,8 @@
     <string name="title_qa">K/V</string>
     <string name="thesis">Tétel…</string>
     <string name="microphone">mikrofon</string>
+    <string name="keyword">Kulcsszó…</string>
+    <string name="cancel">X</string>
 
     <string-array name="thesis">
         <item>1. Hámszövet</item>

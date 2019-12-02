@@ -12,13 +12,15 @@ import androidx.fragment.app.Fragment;
 
 import org.semmelweis.university.anatomyapp.R;
 
+import java.util.Objects;
+
 public class LearnFragment extends Fragment {
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
-        final View root = inflater.inflate(R.layout.fragment_learn, container, false);
+        View root = inflater.inflate(R.layout.fragment_learn, container, false);
         Spinner thesisSpinner=root.findViewById(R.id.thesis_spinner);
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(getActivity(), R.array.thesis, android.R.layout.simple_spinner_item);
+        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(Objects.requireNonNull(getActivity()), R.array.thesis, android.R.layout.simple_spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         thesisSpinner.setAdapter(adapter);
         return root;
