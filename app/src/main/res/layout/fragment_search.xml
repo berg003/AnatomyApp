@@ -55,9 +55,17 @@
         android:layout_centerHorizontal="true"
         android:layout_marginTop="60dp"
         android:background="#00FF00"/>
-    <com.ortiz.touchview.TouchImageView
-        android:id="@+id/search_touchimageview"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"/>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="80dp">
+        <com.ortiz.touchview.TouchImageView
+            android:id="@+id/search_touchimageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+        <com.ortiz.touchview.TouchImageView
+            android:id="@+id/select_touchimageview"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"/>
+    </RelativeLayout>
 </RelativeLayout>

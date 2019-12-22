@@ -9,7 +9,6 @@ import android.view.ViewGroup;
 import android.view.inputmethod.InputMethodManager;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
-import android.widget.ImageView;
 import android.widget.TextView;
 
 import androidx.annotation.NonNull;
@@ -31,6 +30,7 @@ public class SearchFragment extends Fragment {
     private AutoCompleteTextView searchAutoCompleteTextView;
     private TextView textView;
     private TouchImageView touchImageView;
+    private TouchImageView touchImageSelector;
 
     public View onCreateView(@NonNull LayoutInflater inflater,
                              ViewGroup container, Bundle savedInstanceState) {
@@ -47,6 +47,8 @@ public class SearchFragment extends Fragment {
 
         textView=view.findViewById(R.id.search_textview);
         touchImageView=view.findViewById(R.id.search_touchimageview);
+        touchImageSelector=view.findViewById(R.id.select_touchimageview);
+        touchImageSelector.setOnTouchImageViewListener(() -> touchImageView.setZoom(touchImageSelector));
 
         initAutoCompleteTextView(searchAutoCompleteTextView);
 
@@ -79,16 +81,18 @@ public class SearchFragment extends Fragment {
 
     private void showImageAndWritePart(String arrow) {
         String text = searchAutoCompleteTextView.getText().toString();
-        TreeMap<Integer,String> fragmentMap=SearchConstant.fragmentMap.get(text);
+        TreeMap<Integer,SearchDto> fragmentMap=SearchConstant.fragmentMap.get(text);
         if (fragmentMap != null) {
             Integer fragmentKey = arrow == null || currentFragmentKey == null || (SearchConstant.ARROW_UP.equals(arrow) && fragmentMap.lowerKey(currentFragmentKey) == null)  || (SearchConstant.ARROW_DOWN.equals(arrow) && fragmentMap.higherKey(currentFragmentKey) == null) ? fragmentMap.firstKey() :
                     (SearchConstant.ARROW_UP.equals(arrow) ? fragmentMap.lowerKey(currentFragmentKey) : fragmentMap.higherKey(currentFragmentKey));
-            textView.setText(fragmentMap.get(fragmentKey) + " - " + text);
+            textView.setText(fragmentMap.get(fragmentKey).getNumbers() + " - " + text);
             touchImageView.setImageResource(fragmentKey);
+            touchImageSelector.setImageResource(fragmentMap.get(fragmentKey).getSelectorImageId() == null ? R.drawable.blank : fragmentMap.get(fragmentKey).getSelectorImageId());
             currentFragmentKey=fragmentKey;
         } else {
             textView.setText("N/A");
             touchImageView.setImageResource(R.drawable.blank);
+            touchImageSelector.setImageResource(R.drawable.blank);
         }
     }
 }
